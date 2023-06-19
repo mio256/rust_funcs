@@ -1,3 +1,5 @@
-fn main(){
-    println!("hello,world.");
+mod guess;
+
+fn main() {
+    guess::guess();
 }
